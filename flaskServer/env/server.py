@@ -96,16 +96,6 @@ def update_todo(id):
     return jsonify({"message":"the todo with the id %s was updated"%(id)})
 
 
-        
-    
-    
-
-
-
-
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
 # database = blog
